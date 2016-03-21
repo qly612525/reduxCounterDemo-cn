@@ -1,0 +1,34 @@
+{
+    "name": "reduxCounterDemo-cn",
+    "version": "1.0.0",
+    "description": "研究如何使用redux数据流处理react-component",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "./node_modules/.bin/webpack-dev-server --port 9080 --content-base ./ --hot --inline"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/qly612525/reduxCounterDemo-cn.git"
+    },
+    "keywords": [],
+    "dependencies": {
+        "babel-core": "^6.6.5",
+        "babel-loader": "^6.2.4",
+        "babel-preset-es2015": "^6.6.0",
+        "babel-preset-react": "^6.5.0",
+        "babel-preset-stage-0": "^6.3.13",
+        "react": "^0.14.7",
+        "react-dom": "^0.14.7",
+        "react-redux": "^4.4.1",
+        "redux": "^3.3.1",
+        "webpack": "^1.12.14",
+        "webpack-dev-server": "^1.14.1"
+    },
+    "author": "qianleyi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/qly612525/reduxCounterDemo-cn/issues"
+    },
+    "homepage": "https://github.com/qly612525/reduxCounterDemo-cn"
+}
